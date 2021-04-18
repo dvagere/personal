@@ -4,7 +4,7 @@ import "./assets/styles/main.scss";
 function App() {
   return (
     <div className="App">
-      Hello, My name is Diligence Vagere.
+      <h2>Hi, i'm Diligence Vagere.</h2>
     </div>
   );
 };
