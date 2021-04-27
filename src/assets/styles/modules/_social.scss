@@ -12,26 +12,33 @@
     width: 1px;
     height: 90px;
     margin: 0 auto;
-    background-color: var(--light-slate);
+    background-color: $light-slate;
   }
 
-  li {
+  &__list-item {
     &:last-of-type {
       margin-bottom: 20px;
     }
+  }
 
-    a {
-      padding: 10px;
+  &__list-item-link {
+    padding: 10px;
 
-      &:hover,
-      &:focus {
-        transform: translateY(-3px);
-      }
-
-      svg {
-        width: 20px;
-        height: 20px;
-      }
+    &:hover,
+    &:focus {
+      transform: translateY(-3px);
     }
+
+    svg {
+      width: 20px;
+      height: 20px;
+      margin: 10px;
+      color: $light-slate;
+    }
+  }
+
+  &__list-item-link-icon {
+    width: 20px;
+    height: 20px;
   }
 }

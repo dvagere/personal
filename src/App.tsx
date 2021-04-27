@@ -1,10 +1,11 @@
 import React from 'react';
 import "./assets/styles/main.scss";
+import Home from './pages/Home';
 
 function App() {
   return (
     <div className="App">
-      <h2>Hi, i'm Diligence Vagere.</h2>
+      <Home />
     </div>
   );
 };

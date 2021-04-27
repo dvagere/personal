@@ -1,53 +1,24 @@
 export const information = {
-  email: 'brittany.chiang@gmail.com',
+  email: 'dvagere@gmail.com',
 
   socialMedia: [
     {
       name: 'GitHub',
-      url: 'https://github.com/bchiang7',
-    },
-    {
-      name: 'Instagram',
-      url: 'https://www.instagram.com/bchiang7',
+      url: 'https://github.com/dvagere',
     },
     {
       name: 'Twitter',
-      url: 'https://twitter.com/bchiang7',
+      url: 'https://twitter.com/dvagere',
     },
     {
       name: 'Linkedin',
-      url: 'https://www.linkedin.com/in/bchiang7',
+      url: 'https://www.linkedin.com/in/diligence-vagere-585ab912b/',
     },
     {
-      name: 'Codepen',
-      url: 'https://codepen.io/bchiang7',
+      name: 'StackOverflow',
+      url: 'https://stackoverflow.com/users/11232778/diligence-vagere',
     },
   ],
-
-  // navLinks: [
-  //   {
-  //     name: 'About',
-  //     url: '/#about',
-  //   },
-  //   {
-  //     name: 'Experience',
-  //     url: '/#jobs',
-  //   },
-  //   {
-  //     name: 'Work',
-  //     url: '/#projects',
-  //   },
-  //   {
-  //     name: 'Contact',
-  //     url: '/#contact',
-  //   },
-  // ],
-
-  // colors: {
-  //   green: '#64ffda',
-  //   navy: '#0a192f',
-  //   darkNavy: '#020c1b',
-  // },
 
   srConfig: (delay = 200, viewFactor = 0.25) => ({
     origin: 'bottom',

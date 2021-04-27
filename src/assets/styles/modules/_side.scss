@@ -1,0 +1,29 @@
+.side {
+  width: 40px;
+  position: fixed;
+  bottom: 0;
+  z-index: 10;
+  color: var(--light-slate);
+
+  &--left {
+    left: 40px;
+    right: auto;
+
+    @include atMediumMax {
+      left: 20px;
+    }
+  }
+
+  &--right {
+    left: auto;
+    right: 40px;
+
+    @include atMediumMax {
+      right: 20px;
+    }
+  }
+
+  @include atSmallMax {
+    display: none;
+  }
+}
