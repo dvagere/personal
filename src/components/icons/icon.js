@@ -15,6 +15,7 @@ import {
   IconStar,
   IconTwitter,
   IconZap,
+  IconStackOverflow,
 } from './';
 
 const Icon = ({ name }) => {
@@ -47,6 +48,8 @@ const Icon = ({ name }) => {
       return <IconTwitter />;
     case 'Zap':
       return <IconZap />;
+    case 'StackOverflow':
+      return <IconStackOverflow />;
     default:
       return <IconExternal />;
   }
