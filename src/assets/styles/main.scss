@@ -2,7 +2,9 @@
 @import "./base/mixins";
 @import "./base/globals";
 
+@import "./modules/flex";
 @import "./modules/side";
 @import "./modules/social";
+@import "./modules/header";
 @import "./modules/styled-content";
 @import "./modules/styled-link-wrapper";
