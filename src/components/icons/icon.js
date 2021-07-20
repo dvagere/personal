@@ -1,4 +1,3 @@
-import React from 'react';
 import PropTypes from 'prop-types';
 import {
   IconAppStore,
@@ -18,40 +17,40 @@ import {
   IconStackOverflow,
 } from './';
 
-const Icon = ({ name }) => {
+const Icon = ({ name, ...rest }) => {
   switch (name) {
     case 'AppStore':
-      return <IconAppStore />;
+      return <IconAppStore {...rest} />;
     case 'Codepen':
-      return <IconCodepen />;
+      return <IconCodepen {...rest} />;
     case 'External':
-      return <IconExternal />;
+      return <IconExternal {...rest} />;
     case 'Folder':
-      return <IconFolder />;
+      return <IconFolder {...rest} />;
     case 'Fork':
-      return <IconFork />;
+      return <IconFork {...rest} />;
     case 'GitHub':
-      return <IconGitHub />;
+      return <IconGitHub {...rest} />;
     case 'Instagram':
-      return <IconInstagram />;
+      return <IconInstagram {...rest} />;
     case 'Linkedin':
-      return <IconLinkedin />;
+      return <IconLinkedin {...rest} />;
     case 'Loader':
-      return <IconLoader />;
+      return <IconLoader {...rest} />;
     case 'Logo':
-      return <IconLogo />;
+      return <IconLogo {...rest} />;
     case 'PlayStore':
-      return <IconPlayStore />;
+      return <IconPlayStore {...rest} />;
     case 'Star':
-      return <IconStar />;
+      return <IconStar {...rest} />;
     case 'Twitter':
-      return <IconTwitter />;
+      return <IconTwitter {...rest} />;
     case 'Zap':
-      return <IconZap />;
+      return <IconZap {...rest} />;
     case 'StackOverflow':
-      return <IconStackOverflow />;
+      return <IconStackOverflow {...rest} />;
     default:
-      return <IconExternal />;
+      return <IconExternal {...rest} />;
   }
 };
 

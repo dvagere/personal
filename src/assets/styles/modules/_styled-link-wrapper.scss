@@ -21,10 +21,13 @@
     writing-mode: vertical-rl;
 
     color: $light-slate;
+    transition: 0.5s;
 
     &:hover,
     &:focus {
       transform: translateY(-3px);
+      transition: 0.5s;
+      color: $common-white;
     }
   }
 }

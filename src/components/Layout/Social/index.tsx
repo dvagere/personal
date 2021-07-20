@@ -10,12 +10,12 @@ const Social = () => {
   return (
   
     <div className="side side--left">
-      <ul className="social-list">
+      <ul className="social-list-wrapper">
         {socialMedia &&
           socialMedia.map(({ url, name }, i) => (
-            <li key={i} className="social-list__list-item">
-              <a className="social-list__list-item-link" href={url} aria-label={name} target="_blank" rel="noopener noreferrer">
-                <Icon name={name} />
+            <li key={i} className="social-list-wrapper__list-item">
+              <a className="social-list-wrapper__list-item-link" href={url} aria-label={name} target="_blank" rel="noopener noreferrer">
+                <Icon name={name} className="social-list-wrapper__list-item-link-icon" />
               </a>
             </li>
           ))}
